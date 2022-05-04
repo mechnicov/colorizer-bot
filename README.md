@@ -19,13 +19,13 @@ $ cp .env.example .env
 2. Create docker image
 
 ```console
-$ sudo docker build -t colorizer .
+$ docker build -t colorizer .
 ```
 
 3. Run docker container
 
 ```console
-$ sudo docker run --name colorizer -d colorizer
+$ docker run --name colorizer -d colorizer
 ```
 
 ### License
