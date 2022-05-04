@@ -50,5 +50,8 @@ def process(update, context):
     update.message.reply_photo(colorized_photo)
     colorized_photo.close()
 
+    os.remove(filename)
+    os.remove(colorized_filename)
+
 if __name__ == '__main__':
     main()
